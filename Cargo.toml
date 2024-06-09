@@ -1,0 +1,16 @@
+[package]
+name = "kernel"
+version = "0.0.1"
+authors = ["test"]
+
+[lib]
+#crate-type = ["staticlib"]
+
+[dependencies]
+bootloader = "0.9.0"
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"

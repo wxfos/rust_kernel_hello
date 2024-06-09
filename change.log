@@ -1,0 +1,5 @@
+.cargo/config
+
+rust-toolchain: nightly-2020-09-13
+
+cargo install bootimage --version "^0.7.10"
